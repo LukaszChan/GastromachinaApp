@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Gastromachina</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="_150g">150g wołowiny, ananas marynowany w przyprawie cajun, ser mimolette, jalapeno, bataty, rukola, cebula, pomidor, sałata, sos pikantne curry</string>
+    <string name="daj_si_skusi">Daj się skusić!</string>
+    <string name="art_tropik_w_na_sterydach_2_0">Żart Tropików na sterydach 2.0</string>
+    <string name="_32_pln">32 PLN</string>
+    <string name="trojka_przyjaciol">Trójka przyjaciół i jeden wujek, sporo determinacji i jeszcze więcej dobrej wołowiny.</string>
+    <string name="przepis">Tak brzmi przepis na stworzenie miejsca z wyśmienitymi burgerami, o których głośno jest nie tylko w rodzimej im Łodzi.
+Gastromachina to trzy punkty: Foodtruck (zazwyczaj można go znaleźć na Piotrkowskiej 217), który działa od 2014 roku, burgerownia Gastromachina Stacja (Piotrkowska 89, w bramie) otwarty w roku 2015 oraz wędzarnia i steakhouse Centralna Gastromachina otwarty w 2019 roku.</string>
+    <string name="dowiedz_si_wi_cej">Dowiedz się więcej</string>
+    <string name="o_naszej_restauracji">o naszej restauracji</string>
+    <string name = "homepage">Strona Główna</string>
+    <string name="menu">Menu</string>
+
+    <string name="klasyczne">BURGERY KLASYCZNE</string>
+    <string-array name="item_names_klasyczne">
+        <item>Klasyczny Klasyk</item>
+        <item>Cheesburger</item>
+        <item>Cheese and Bacon</item>
+        <item>Wege Burger</item>
+        <item>Mega Machina</item>
+    </string-array>
+    <string-array name="item_descriptions_klasyczne">
+        <item>150g wołowiny, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru</item>
+        <item>150g wołowiny, ser gouda, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru</item>
+        <item>150g wołowiny, ser gouda, boczek, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru</item>
+        <item>150g wege kotleta na bazie kaszy jaglanej z warzywami i ziarnami sezamu oraz słonecznika, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru</item>
+        <item>300g wołowiny ,podwójny ser gouda, podwójny boczek, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru</item>
+    </string-array>
+    <string-array name="item_prices_klasyczne">
+        <item>23,00zł</item>
+        <item>25,00zł</item>
+        <item>28,00zł</item>
+        <item>21,00zł</item>
+        <item>45,00zł</item>
+    </string-array>
+
+    <string name="autorskie">BURGERY AUTORSKIE</string>
+    <string-array name="item_names_autorskie">
+        <item>Żart Tropików na Sterydach 2.0</item>
+        <item>Burger Maczeta</item>
+        <item>Czarna Perła</item>
+        <item>Cheese and Bacon na Sterydach</item>
+        <item>Burger Cheesus Christ Superstar</item>
+        <item>SUPER SMASH BRO</item>
+    </string-array>
+    <string-array name="item_descriptions_autorskie">
+        <item>150g wołowiny, ananas marynowany w przyprawie cajun, ser mimolette, jalapeno, bataty, rukola, cebula, pomidor, sałata, sos do wyboru</item>
+        <item>150g wołowiny wędzona papryka, jalapeno, pomidor, cebula czerwona, rukola, sałata, czerwona bułka z suszonym pomidorem i czarnuszką, sos do wyboru</item>
+        <item>150g wołowiny , krewetki smażone na maśle, mango marynowane w rumie z habanero i limonką, pomidor, cebula czerwona, rukola, sałata, sos limonkowo-koperkowy, czarna bułka</item>
+        <item>150g wołowiny, podwójny ser, zakręcone frytki, boczek, sałata, pomidor, cebula, rukola</item>
+        <item>150g wołowiny, gorgonzola, camembert, ser wędzony, cheddar, pomidor, cebula czerwona, rukola, sałata, sos do wyboru</item>
+        <item>150 g wołowiny, ser, smażone kimchi, grillowany ananas, sałata, cebula, ogórek, sos smashny mieszany</item>
+    </string-array>
+    <string-array name="item_prices_autorskie">
+        <item>33,00zł</item>
+        <item>29,00zł</item>
+        <item>39,00zł</item>
+        <item>32,00zł</item>
+        <item>30,00zł</item>
+        <item>45,00zł</item>
+    </string-array>
+
+    <string name="dodatki">DODATKI</string>
+    <string-array name="item_names_dodatki">
+        <item>Nachosy</item>
+        <item>Zakręcone Frytki</item>
+        <item>Frytki</item>
+        <item>Frytki z Batatów</item>
+        <item>Onion Rings</item>
+        <item>Kimchi</item>
+        <item>Panierowane nadziewane serem papryczki jalapeno</item>
+    </string-array>
+    <string-array name="item_descriptions_dodatki">
+        <item>Porcja 150g lekko pikantnych nachosów z 2 sosami do wyboru</item>
+        <item>Porcja 130g zakręconych frytek sypanych paprykową przyprawą</item>
+        <item>Porcja 180g frytek z ziemniaków ze skórką</item>
+        <item>Porcja 120g rytek ze słodkich ziemniaków</item>
+        <item>Porcja 8 krążków cebulowych w panierce</item>
+        <item>Porcja 150g kapusty kimchi naszej produkcji. Orientalna kiszona kapusta pekińska na ostro.</item>
+        <item>Porcja 6 sztuk lekko ostrych papryczek jalapeno nadzianych kremowym serkiem.</item>
+    </string-array>
+    <string-array name="item_prices_dodatki">
+        <item>18,00zł</item>
+        <item>12,00zł</item>
+        <item>10,00zł</item>
+        <item>14,00zł</item>
+        <item>12,00zł</item>
+        <item>12,00zł</item>
+        <item>20,00zł</item>
+    </string-array>
+
+    <string name="slodkie">SŁODKIE</string>
+    <string-array name="item_names_slodkie">
+        <item>Torba materiałowa</item>
+        <item>Pasta orzechowa z dodatkiem kokosa od Natura</item>
+    </string-array>
+    <string-array name="item_descriptions_slodkie">
+        <item>Torba bawełniana z naszym logo</item>
+        <item>Produkt powstaje poprzez zmielenie starannie wyselekcjonowanych argentyńskich orzechów arachidowych oraz wiórek kokosowych</item>
+    </string-array>
+    <string-array name="item_prices_slodkie">
+        <item>15,00zł</item>
+        <item>15,99zł</item>
+    </string-array>
+
+    <string name="bbqy">BBQ</string>
+    <string-array name="item_names_bbq">
+        <item>Żeberka BBQ</item>
+        <item>Smalec</item>
+    </string-array>
+    <string-array name="item_descriptions_bbq">
+        <item>Żeberka (ok.450g) w autorskim mixie przypraw (lekko pikantnym) robione w naszym BBQ. Czyli idealnie upieczone i odymione drewnem.</item>
+        <item>Smalec wieprzowy naszej produkcji z jabłuszkiem i cebulką. Absolutny must have na każdą pajdę z ogórkiem ;) op.200g</item>
+    </string-array>
+    <string-array name="item_prices_bbq">
+        <item>39,00zł</item>
+        <item>12,00zł</item>
+    </string-array>
+
+    <string name="napojelabel">NAPOJE</string>
+    <string-array name="item_names_napoje">
+        <item>Bombilla Classic</item>
+        <item>Lemoniada Moon Brothers - Grejpfrut z rozmarynem</item>
+        <item>Sok Szot Jabłko-Mięta</item>
+        <item>Pepsi</item>
+        <item>Tonic</item>
+    </string-array>
+    <string-array name="item_descriptions_napoje">
+        <item>330ml</item>
+        <item>330ml</item>
+        <item>250ml</item>
+        <item>200ml</item>
+        <item>200ml</item>
+    </string-array>
+    <string-array name="item_prices_napoje">
+        <item>12,00zł</item>
+        <item>12,00zł</item>
+        <item>9,00zł</item>
+        <item>7,00zł</item>
+        <item>7,00zł</item>
+    </string-array>
+
+    <string name="galeria">Galeria</string>
+    <string name="kontakt">Kontakt</string>
+    <string name="dane">Dane adresowe</string>
+
+    <string-array name="adresy">
+        <item>Gastromachina Stacja - Piotrkowska</item>
+        <item>Gastromachina Stacja - Dąbrowskiego</item>
+    </string-array>
+
+    <string name="wybor">kliknij, aby wybrać restaurację:</string>
+    <string name="wybranapietryna">Gastromachina Stacja - Piotrkowska</string>
+    <string name="wybranedabrowskiego">Gastromachina Stacja - Dąbrowskiego</string>
+    <string name="piotrkowska_93">Piotrkowska 93</string>
+    <string name="_90_423_d">90–423 Łódź</string>
+    <string name="_537_039_198">537 039 198</string>
+    <string name="info_gastromachina_pl">info@gastromachina.pl</string>
+    <string name="godziny">Godziny otwarcia:</string>
+    <string name="poniedzialek">poniedziałek</string>
+    <string name="wtorek">wtorek</string>
+    <string name="sroda">środa</string>
+    <string name="czwartek">czwartek</string>
+    <string name="piatek">piątek</string>
+    <string name="sobota">sobota</string>
+    <string name="niedziela">niedziela</string>
+    <string name="pnczw">12:00 – 21:00</string>
+    <string name="ptsob">12:00 – 22:00</string>
+    <string name="niedz">12:00 – 20:00</string>
+    <string name="godzinydostawy">Godziny dostawy:</string>
+    <string name="pnczwdostawy">12:00 – 20:00</string>
+    <string name="piatekdostawy">12:00 – 17:00</string>
+    <string name="sobotadostawy">zamknięte</string>
+    <string name="niedzdostawy">12:00 – 19:00</string>
+    <string name="przejd_do_menu">Przejdź do menu</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="@color/yellow"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="50"
+                android:text="@string/menu"
+                android:textAlignment="center"
+                android:textColor="#FFF9E9"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/klasyczne_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="5dp"
+                    android:src="@drawable/ikona_klasyczne" />
+
+                <TextView
+                    android:id="@+id/Tvklasyczne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="false"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/klasyczne"
+                    android:textColor="@color/dark_yellow"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/klasyczne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_klasyczne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/grey"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/autorskie_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="5dp"
+                    android:src="@drawable/ikona_autorskie" />
+
+                <TextView
+                    android:id="@+id/Tvautorskie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/autorskie"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/autorskie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_autorskie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/grey"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dodatki_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="5dp"
+                    android:src="@drawable/ikona_dodatki" />
+
+                <TextView
+                    android:id="@+id/Tvdodatki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/dodatki"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/dodatki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_dodatki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/grey"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/slodkie_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="5dp"
+                    android:src="@drawable/ikona_slodkie" />
+
+                <TextView
+                    android:id="@+id/Tvslodkie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/slodkie"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/slodkie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_slodkie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/grey"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bbq_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="5dp"
+                    android:src="@drawable/ikona_bbq" />
+
+                <TextView
+                    android:id="@+id/Tvbbq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/bbqy"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/bbq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_bbq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/grey"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/napoje_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo"
+                    android:padding="5dp"
+                    android:src="@drawable/ikona_napoje" />
+
+                <TextView
+                    android:id="@+id/Tvnapoje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/napojelabel"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/grey"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/napoje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_napoje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/grey"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
